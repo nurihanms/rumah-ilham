@@ -1,0 +1,150 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {background:url(images/blue.jpg) ; }
+
+/*WHOLE PAGE*/
+.page { width:80%;
+		margin:auto;
+		padding:16px;}
+
+/*HEADER SECTION*/
+
+ul {list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#b3e6ff;
+	font-family:calibri; }
+
+li {float:left;}
+
+li a, .oibtn {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;}
+
+li a, .contactbtn {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color:#348ea1;}
+
+li.dropdown {display: inline-block;}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:#348ea1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;}
+
+.dropdown-content a:hover {background-color:#0cb7a1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+/*MAIN SECTION*/
+main {background-color:none;
+	margin:auto;
+	width:70%;
+	float:left;
+	padding:10px;
+	text-align:justify;}
+
+/*SIDEBAR SECTION*/
+.sidebar {background-color:none;
+		margin:auto;
+		width:18%;
+		float:right;
+		padding:10px;
+		text-align:justify;}
+
+/*FOOTER SECTION*/
+.footer-kaki {background-color:#b3e6ff; clear:both; right:o; font-family:nexa;}
+				
+								
+/*facilities*/				
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;}
+
+/*table*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color:#9C3}
+
+th {
+    background-color:grey;
+    color: black;}
+	
+
+/*activiies*/
+table {
+    border-collapse: collapse;
+    width: 100%;}
+
+th, td {
+    text-align: left;
+    padding: 8px;}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th { background-color: #4CAF50;
+    color: white;}
+	
+table, th, td { border: 1px solid black;}
+
+.quote {font-family:calibri; color:#2b5d68;}
+
+.welcome {font-family:walkway; color:black;}
+
+.para1 {font-family:nexa;}
+
+.tazkirah {font-family:arial; color:red;}
+
+.social {font-family:arial; color:red;}
+
+.desc {font-family:calibri;}
+
+.dot {font-family:calibri;}
+
+.para3 {font-family:nexa;}
